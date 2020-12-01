@@ -3,7 +3,7 @@ header {
   padding: 0;
   box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 10px rgba(0,0,0,.08);
   z-index: 1010;
-  font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+  font-family: SourceSansPro, Arial, sans-serif;
   font-weight: 400;
   line-height: 1.4;
   font-size: 1rem;

@@ -1,4 +1,5 @@
 .itemsCenter {
+  font-family: SourceSansPro, Arial, sans-serif;
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
@@ -21,6 +22,7 @@ h1 {
 }
 
 .introduction, .commentsContainer {
+  font-family: SourceSansPro, Arial, sans-serif;
   background-color:rgb(240, 240, 240);
   display: flex;
   flex-direction: column;
@@ -33,6 +35,7 @@ h2 {
 }
 
 .introductionContainer, .courses, .comments {
+  font-family: SourceSansPro, Arial, sans-serif;
   list-style-type: none;
   display: grid;
   grid-template-columns: 1fr;
@@ -59,6 +62,7 @@ h2 {
 }
 
 .coursesContainer{
+  font-family: SourceSansPro, Arial, sans-serif;
   display: flex;
   flex-direction: column;
   padding: 30px 45px; 
