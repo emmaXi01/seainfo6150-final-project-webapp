@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Categories tests renders the categories component correctly 1`] = `
+<div>
+  <div>
+    <nav
+      class="categories"
+    >
+      <ul
+        class="categoryList"
+      >
+        <li>
+          <a
+            href="/category/all-course"
+          >
+            All Courses
+          </a>
+        </li>
+        <li>
+          <a
+            href="/category/computer-science"
+          >
+            Computer Science
+          </a>
+        </li>
+        <li>
+          <a
+            href="/category/data-science"
+          >
+            Data Science
+          </a>
+        </li>
+        <li>
+          <a
+            href="/category/business"
+          >
+            Business
+          </a>
+        </li>
+        <li>
+          <a
+            href="/category/marketing"
+          >
+            Marketing
+          </a>
+        </li>
+        <li>
+          <a
+            href="/category/finance"
+          >
+            Fiance
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="courseListcontainer"
+    >
+      <div>
+        <div
+          class="result"
+        />
+        <ul>
+          <li>
+            <div
+              class="courseItemContainer"
+            >
+              <div
+                class="imageBlock"
+              >
+                <img
+                  alt="Java In-Depth: Become a Complete Java Engineer!"
+                  class="courseImage"
+                  src="https://img-a.udemycdn.com/course/240x135/358540_d06b_11.jpg?lsaRdWOfyyOFnCz9KovMox34gK-3G6UsnZgjEOeh07Q_SHEe3Z9n9Z02mUXmGQznMKo3pk8Y2Awhe8WDW3S8fcYGnnSGesSt478TTBYn3HmXXfK8qyh5IDV0zhde_w"
+                />
+              </div>
+              <div
+                class="corseInfo"
+              >
+                <a
+                  href="/courses/170321135754-airport-security-line"
+                >
+                  <h2>
+                    Java In-Depth: Become a Complete Java Engineer!
+                  </h2>
+                </a>
+                <p
+                  class="text"
+                >
+                  Comprehensive Java programming course integrated with design principles, best practices & instructor-led Java EE project
+                </p>
+                <div
+                  class="instructor"
+                >
+                  Luella Mccall
+                </div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="courseItemContainer"
+            >
+              <div
+                class="imageBlock"
+              >
+                <img
+                  alt="Web Design for Beginners: Real World Coding in HTML & CSS"
+                  class="courseImage"
+                  src="https://img-a.udemycdn.com/course/240x135/246154_d8b0_3.jpg?aBllZUevJOgxDAyfy0KmGxZGoPJu5BLonfU25_WbWPrDrTOdjs_fH1MsvvS8yTLpQlF_h3h1a30AO2th19gZGtFs7_MhHupQB2r8_exSotdvNMZ4n4X90gystipV"
+                />
+              </div>
+              <div
+                class="corseInfo"
+              >
+                <a
+                  href="/courses/181119170125-ploughgate-creamery-butter-ball"
+                >
+                  <h2>
+                    Web Design for Beginners: Real World Coding in HTML & CSS
+                  </h2>
+                </a>
+                <p
+                  class="text"
+                >
+                  Launch a career as a web designer by learning HTML5, CSS3, responsive design, Sass and more!
+                </p>
+                <div
+                  class="instructor"
+                >
+                  Kate Farley
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

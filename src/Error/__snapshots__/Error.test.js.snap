@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error test renders the error component correctly 1`] = `
+<div>
+  <div
+    class="error"
+  >
+    404 Not Found! 
+    <br />
+     
+    <br />
+    The error page!
+  </div>
+</div>
+`;

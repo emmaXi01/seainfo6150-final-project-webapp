@@ -1,0 +1,71 @@
+.loginContainer {
+  width: 500px;
+  margin: 5% auto 5%;
+  padding: 50px 80px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+  
+.picture {
+  text-align: center;
+}
+
+.loginImage {
+  width: 400px;
+  border-radius: 10px;
+}
+
+.greeting {
+  display: block;
+  text-align: center;
+}
+
+.username, .password {
+  width: 100%;
+  padding: 12px 10px;
+  font-size: medium;
+  margin: 8px 0; 
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.loginButton {
+  background-color: #4085d3;
+  color: white;
+  font-size: medium;
+  padding: 14px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+} 
+
+@media screen and (min-width: 400px) {
+  .loginContainer{
+    width: 300px;
+  }
+
+  .loginImage{
+    width: 200px;
+  }
+} 
+
+@media screen and (min-width: 600px) {
+  .loginContainer{
+    width: 400px;
+  }
+
+  .loginImage {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .loginContainer{
+    width: 600px;
+  }
+
+  .loginImage {
+    width: 400px;
+  }
+}

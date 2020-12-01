@@ -1,0 +1,23 @@
+.courseListcontainer {
+  margin-top: 20px;;
+  padding: 15px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.result {
+  color: #1064a8;
+  padding-left: 30px;
+}
+
+.warning {
+  display: block;
+  text-align: center;
+  color: #29303b;
+  font-weight: 700;
+  font-size: 25px;
+  padding-top: 30px;
+  margin: 180px auto;  
+}

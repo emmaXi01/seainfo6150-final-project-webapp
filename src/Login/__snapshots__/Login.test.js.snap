@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login tests renders the login component correctly 1`] = `
+<div>
+  <div
+    class="loginContainer"
+  >
+    <div
+      class="picture"
+    >
+      <img
+        alt="login"
+        class="loginImage"
+        src="login.png"
+      />
+    </div>
+    <h4
+      class="greeting"
+    >
+      hello :)
+    </h4>
+    <p
+      class="error"
+    />
+    <div
+      class="login-body"
+    >
+      <input
+        class="username"
+        placeholder="User name"
+        value=""
+      />
+      <input
+        class="password"
+        placeholder="Password"
+        value=""
+      />
+      <button
+        class="loginButton"
+      >
+        Log In
+      </button>
+    </div>
+  </div>
+</div>
+`;

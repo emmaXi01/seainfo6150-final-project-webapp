@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar tests renders the search bar component correctly 1`] = `
+<div>
+  <div>
+    <input
+      class="input"
+      placeholder="Search for course"
+      value=""
+    />
+    <button
+      class="searchButton"
+    >
+      search
+    </button>
+  </div>
+</div>
+`;

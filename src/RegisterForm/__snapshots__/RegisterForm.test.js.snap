@@ -1,0 +1,232 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RegisterForm tests renders the register form component correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="topContainer"
+    >
+      <div
+        class="topWrapper"
+      >
+        <h1>
+          Java Programming Masterclass for Software Developers
+        </h1>
+        <p>
+          Learn Java In This Course And Become a Computer Programmer. Obtain valuable Core Java Skills And Java Certification
+        </p>
+      </div>
+    </div>
+    <form
+      class="form"
+    >
+      <fieldset>
+        <legend>
+          <h2>
+            Registeration Form
+          </h2>
+        </legend>
+        <div>
+          <label
+            for="first-name"
+          >
+            First name
+            <sup>
+              *
+            </sup>
+            :
+            <input
+              class="name"
+              id="first-name"
+              name="first-name"
+              required=""
+              type="text"
+            />
+          </label>
+          <label
+            for="last-name"
+          >
+            Last name
+            <sup>
+              *
+            </sup>
+            :
+            <input
+              class="name"
+              id="last-name"
+              name="last-name"
+              required=""
+              type="text"
+            />
+          </label>
+        </div>
+        <div>
+          <label
+            for="email"
+          >
+            Email
+            <sup>
+              *
+            </sup>
+            :
+            <input
+              class="email"
+              id="email"
+              name="email"
+              placeholder="ex: myname@example.com"
+              required=""
+              type="email"
+            />
+          </label>
+        </div>
+        <div>
+          <label
+            for="telephone"
+          >
+            Telephone:
+            <input
+              class="phone"
+              id="telephone"
+              name="telephone"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              type="tel"
+            />
+            <small>
+              format: 123-456-7890
+            </small>
+          </label>
+        </div>
+        <div>
+          <label
+            for="education"
+          >
+            Education Level:
+            <select
+              class="education"
+              id="education"
+            >
+              <option>
+                please select one
+              </option>
+              <option
+                value="Doctoral Degree"
+              >
+                Doctoral Degree
+              </option>
+              <option
+                value="Master's Degree"
+              >
+                Master's Degree
+              </option>
+              <option
+                value="Bachelor's Degree"
+              >
+                Bachelor's Degree
+              </option>
+              <option
+                value="High School Diploma"
+              >
+                High School Diploma
+              </option>
+              <option
+                value="Less Than a High School"
+              >
+                Less Than a High School
+              </option>
+            </select>
+          </label>
+          <label
+            for="college"
+          >
+            School/College:
+            <input
+              class="college"
+              id="college"
+              name="tcollege"
+              type="text"
+            />
+          </label>
+        </div>
+        <div>
+          <label>
+            Certificate Type:
+          </label>
+          <input
+            class="certificate"
+            name="digit"
+            type="radio"
+            value="digit"
+          />
+          <label>
+            digit
+          </label>
+          <input
+            class="certificate"
+            name="paper"
+            type="radio"
+            value="paper"
+          />
+          <label>
+            paper
+          </label>
+          <input
+            class="certificate"
+            name="both"
+            type="radio"
+            value="both digit and paper"
+          />
+          <label>
+            both digit and paper
+          </label>
+        </div>
+        <div>
+          <label
+            for="reason"
+          >
+            Why do you want to register:
+            <select
+              class="reason"
+              id="reason"
+            >
+              <option
+                value="true"
+              >
+                please select one
+              </option>
+              <option
+                value="Interesting"
+              >
+                Interesting
+              </option>
+              <option
+                value="Get a course certificate"
+              >
+                Get a course certification
+              </option>
+              <option
+                value="Find a job"
+              >
+                Find a job
+              </option>
+            </select>
+          </label>
+        </div>
+        <div>
+          <input
+            class="registerButton"
+            type="submit"
+            value="Register"
+          />
+          <button
+            class="cancelButton"
+          >
+            Cancel
+          </button>
+        </div>
+      </fieldset>
+    </form>
+  </div>
+</div>
+`;

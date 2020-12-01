@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Account test renders the account component correctly 1`] = `
+<div>
+  <div
+    class="accountContainer"
+  >
+    <h4
+      class="profile"
+    >
+      Public profile!
+    </h4>
+    <p
+      class="subtext"
+    >
+      Basic information about yourself
+    </p>
+    <label>
+      Basics:
+      <div
+        class="username"
+      >
+        Emma
+      </div>
+    </label>
+  </div>
+</div>
+`;

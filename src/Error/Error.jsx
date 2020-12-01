@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import styles from "./Error.module.css";
 
 const Error = () => {
-    return (
-        <div>
-            The error page
-        </div>
-    )
-}
+  return (
+    <div className={styles.error}>
+        404 Not Found! <br/> <br/>The error page!
+    </div>
+  );
+};
 
-export default Error
+export default Error;

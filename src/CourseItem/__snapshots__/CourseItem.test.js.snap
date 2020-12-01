@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CourseItem tests renders the course item component correctly 1`] = `
+<div>
+  <div
+    class="courseItemContainer"
+  >
+    <div
+      class="imageBlock"
+    >
+      <img
+        alt="Java Programming Masterclass for Software Developers"
+        class="courseImage"
+        src="https://img-a.udemycdn.com/course/240x135/533682_c10c_4.jpg?nZ46z0qISmfa8qZFWvm7OpzmPyGFyNfEOoSySIzYsx6snPkgqmsyFUGUkjWkr84nTmwc5wuy5d2Bsla_fyNXS0Ct9txcLvpUI9erTWZ0CNQULjdN6KrFhZhg72uK"
+      />
+    </div>
+    <div
+      class="corseInfo"
+    >
+      <a
+        href="/courses/181122102925-statue-of-liberty-crown"
+      >
+        <h2>
+          Java Programming Masterclass for Software Developers
+        </h2>
+      </a>
+      <p
+        class="text"
+      >
+        Learn Java In This Course And Become a Computer Programmer. Obtain valuable Core Java Skills And Java Certification
+      </p>
+      <div
+        class="instructor"
+      >
+        Kate Farley
+      </div>
+    </div>
+  </div>
+</div>
+`;

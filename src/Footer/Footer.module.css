@@ -1,0 +1,35 @@
+.footerBlock {
+  display: grid;
+  margin: 0px 12px;
+  padding: 20px;
+}
+
+.listContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.title {
+  font-weight: 600;
+}
+
+@media screen and (min-width: 400px) {
+  .footerBlock {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} 
+
+
+@media screen and (min-width: 500px) {
+  .footerBlock {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 700px) {
+  .footerBlock{
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

@@ -1,0 +1,16 @@
+.categories {
+  border-top: 1px solid #dcdacb;
+  background: #fbfbf8;
+  box-shadow: 0 2px 4px rgba(0,0,0,.08), 0 4px 12px rgba(0,0,0,.08);
+  z-index: 1009;
+  margin: 0px -15px;
+  padding:0px 50px;
+}
+
+.categoryList {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;  
+  margin-right: 60px; 
+  padding-bottom: 10px;;
+}

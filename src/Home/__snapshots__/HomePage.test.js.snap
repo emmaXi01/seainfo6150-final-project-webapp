@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage tests renders the home page component correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="itemsCenter"
+    >
+      <div>
+        <h1>
+          Enrich yourself by Learning Online Free
+        </h1>
+        <p
+          class="itemContent"
+        >
+          Build skills with courses, certificates, and degrees online from excellent instructors.
+        </p>
+      </div>
+      <div
+        class="image"
+      >
+        <img
+          alt="introduce pricture"
+          src="introPicture.png"
+        />
+      </div>
+    </div>
+    <div
+      class="introduction"
+    >
+      <h2>
+        Achieve your goals with OnlineEdu
+      </h2>
+      <ul
+        class="introductionContainer"
+      >
+        <li>
+          <div>
+            <img
+              alt="head pricture"
+              src="head.png"
+            />
+          </div>
+          <div>
+            <span>
+              Learn the 
+              <br />
+              latest skills
+            </span>
+            <p>
+              like business analytics, graphic design, Python, and more
+            </p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img
+              alt="teacher pricture"
+              src="teacher.png"
+            />
+          </div>
+          <div>
+            <span>
+              Get ready
+              <br />
+               for a career
+            </span>
+            <p>
+              in high-demand fields like IT, AI and cloud engineering
+            </p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img
+              alt="degree pricture"
+              src="degree.png"
+            />
+          </div>
+          <div>
+            <span>
+              Earn 
+              <br />
+               a degree
+            </span>
+            <p>
+              from a leading university in business, computer science, and more
+            </p>
+          </div>
+        </li>
+        <li>
+          <div>
+            <img
+              alt="organization pricture"
+              src="organization.png"
+            />
+          </div>
+          <div>
+            <span>
+              Upskill your 
+              <br />
+               organization
+            </span>
+            <p>
+              with on-demand training and development programs
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div
+      class="coursesContainer"
+    >
+      <h2>
+        Short and sweet courses for you
+      </h2>
+    </div>
+    <div
+      class="commentsContainer"
+    >
+      <h2>
+        From the OnlineEdu Community
+      </h2>
+    </div>
+  </div>
+</div>
+`;

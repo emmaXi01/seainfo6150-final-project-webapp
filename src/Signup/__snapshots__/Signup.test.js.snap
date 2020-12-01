@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Signup tests renders the signup component correctly 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <h4
+      class="greeting"
+    >
+      Sign Up and Start Learning!
+    </h4>
+    <p
+      class="error"
+    />
+    <div
+      class="signup-body"
+    >
+      <input
+        class="username"
+        placeholder="User name"
+        value=""
+      />
+      <input
+        class="password"
+        placeholder="Password"
+        value=""
+      />
+      <button
+        class="sigupButton"
+      >
+        Sign Up
+      </button>
+    </div>
+  </div>
+</div>
+`;

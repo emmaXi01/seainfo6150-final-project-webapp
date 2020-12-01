@@ -1,0 +1,32 @@
+.commentBlock {
+  font-family: SourceSansPro, Arial, sans-serif;
+}
+
+.studentImage {
+  border-radius: 50%;
+  height: 160px;
+}
+
+.studentName {
+  font-weight: 600;
+  color: rgb(56, 45, 139);
+}
+
+.position {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.comment {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.inline {
+  background-color: rgb(42, 115, 204);
+  display: inline-block;
+  height: 2px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  width: 69px;
+}
