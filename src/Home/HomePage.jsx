@@ -17,14 +17,14 @@ const HomePage = () => {
   useEffect(() => {
     const fetchRecommendCourses = async () => {
     // performs a GET request
-      const response = await fetch("http://demo0156473.mockable.io/recommendedCourses");
+      const response = await fetch("https://demo0156473.mockable.io/recommendedCourses");
       const responseJson = await response.json();
       setRecommendCourses(Object.values(responseJson));
     };
 
     const fetchComments = async () => {
       // performs a GET request
-        const response = await fetch("http://demo0156473.mockable.io/comments");
+        const response = await fetch("https://demo0156473.mockable.io/comments");
         const responseJson = await response.json();
         setComments(Object.values(responseJson));
       };
