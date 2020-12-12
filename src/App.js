@@ -85,7 +85,7 @@ function App() {
               { userState.isLoggedIn ? <Link to="/user">{userState.username}</Link> : <Link to="/login">Log in</Link>}
             </li>
             <li className={styles.listItem}> 
-            { userState.isLoggedIn ? <Link onClick={handleLogout}>Log out</Link> : <Link to="signup">Sign up</Link> }
+            { userState.isLoggedIn ? <Link onClick={handleLogout}>Log out</Link> : <Link to="/signup">Sign up</Link> }
             </li>
           </ul>
         </nav>
@@ -94,7 +94,7 @@ function App() {
             renders the first one that matches the current URL. */}
       <Switch>
         <Route path="/" exact><Home /></Route>
-        <Route path="/courses" ><Categories courseList={courseList}/></Route>
+        <Route path="/courses"><Categories courseList={courseList}/></Route>
         <Route path="/search"><CoursesList intro={searchText} courseList={target}/></Route>
         <Route path="/login" exact><Login onLogin={onLogin}/></Route>
         <Route path="/signup" exact><Signup onSignup={onSignup}/></Route>
