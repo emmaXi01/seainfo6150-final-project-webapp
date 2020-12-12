@@ -9,6 +9,11 @@ header {
   font-size: 1rem;
 }
 
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
 .list {
   display: flex;
   list-style-type: none;
